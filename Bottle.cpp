@@ -12,7 +12,7 @@ namespace std {
 Bottle::Bottle() {
 	// TODO Auto-generated constructor stub
 	this->Volume = 0;
-	this->KindOfBottle = glass;
+	this->KindOfBottle = plastic;
 }
 
 int Bottle::getVolume(){
