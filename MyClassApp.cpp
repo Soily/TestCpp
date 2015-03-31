@@ -14,7 +14,7 @@ int main() {
 
 	Bottle *MyBottle = new Bottle();
 
-	MyBottle->setVolume(10);
+	MyBottle->setVolume(2);
 	MyBottle->setKind_Of_Bottle(glass);
 	cout << "My Bottle has a volume of " << MyBottle->getVolume() << " litre." << endl;
 
