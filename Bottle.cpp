@@ -27,7 +27,7 @@ Kind_Of_Bottle Bottle::getKind_Of_Bottle(){
 	return this->KindOfBottle;
 }
 
-void Bottle::setKind_Of_Bottle(Kind_Of_Bottle){
+void Bottle::setKind_Of_Bottle(Kind_Of_Bottle KindOfBottle){
 	this->KindOfBottle = KindOfBottle;
 }
 
