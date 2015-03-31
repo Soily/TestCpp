@@ -5,8 +5,17 @@
  *      Author: soily
  */
 
+#include "Bottle_test.h"
 #include "Bottle.h"
 
-namespace std {
+using namespace std;
 
-} /* namespace std */
+void TestDefaultValues(void){
+	Bottle *MyTestBottle = new Bottle();
+	/* Default values */
+	/* Expected Volume = 1 Litre
+	 * Expected KoB = glass
+	 */
+	MyTestBottle->display_KindOfBottleAndVolume();
+}
+
