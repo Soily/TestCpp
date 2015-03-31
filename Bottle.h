@@ -26,6 +26,7 @@ public:
 	/* Kind Setter/Getter */
 	Kind_Of_Bottle getKind_Of_Bottle();
 	void setKind_Of_Bottle(Kind_Of_Bottle KindOfBottle);
+	void display_KindOfBottleAndVolume(void);
 
 	/* Destructor */
 	virtual ~Bottle();

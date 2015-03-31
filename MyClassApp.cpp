@@ -16,21 +16,9 @@ int main() {
 
 	MyBottle->setVolume(2);
 	MyBottle->setKind_Of_Bottle(glass);
-	cout << "My Bottle has a volume of " << MyBottle->getVolume() << " litre." << endl;
 
-	switch(MyBottle->getKind_Of_Bottle()){
-
-	case plastic:
-		cout << "My Bottle is made of " << "plastic" << endl;
-		break;
-
-	case glass:
-		cout << "My Bottle is made of " << "glass" << endl;
-		break;
-
-	default:
-		break;
-	}
+	MyBottle->display_KindOfBottleAndVolume();
 
 	return 0;
 }
+

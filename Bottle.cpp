@@ -6,6 +6,7 @@
  */
 
 #include "Bottle.h"
+#include <iostream>
 
 namespace std {
 
@@ -29,6 +30,25 @@ Kind_Of_Bottle Bottle::getKind_Of_Bottle(){
 
 void Bottle::setKind_Of_Bottle(Kind_Of_Bottle KindOfBottle){
 	this->KindOfBottle = KindOfBottle;
+}
+
+void Bottle::display_KindOfBottleAndVolume(void){
+
+	cout << "My Bottle has a volume of " << this->getVolume() << " litre." << endl;
+
+	switch(this->getKind_Of_Bottle()){
+
+		case plastic:
+			cout << "My Bottle is made of " << "plastic" << endl;
+			break;
+
+		case glass:
+			cout << "My Bottle is made of " << "glass" << endl;
+			break;
+
+		default:
+			break;
+		}
 }
 
 Bottle::~Bottle() {
